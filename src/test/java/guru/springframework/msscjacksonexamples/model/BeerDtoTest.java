@@ -21,7 +21,7 @@ class BeerDtoTest extends BaseTest {
         BeerDto beerDto = getDto();
 
         String jsonString = objectMapper.writeValueAsString(beerDto);
-        
+
         System.out.println(jsonString);
     }
 
